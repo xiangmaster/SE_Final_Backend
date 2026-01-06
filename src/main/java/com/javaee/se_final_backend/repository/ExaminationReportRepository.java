@@ -1,4 +1,7 @@
 package com.javaee.se_final_backend.repository;
 
-public class ExaminationReportRepository {
+import com.javaee.se_final_backend.model.entity.ExaminationReport;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ExaminationReportRepository extends JpaRepository<ExaminationReport, Integer>{
 }
